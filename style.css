@@ -154,10 +154,27 @@ p {
     color: var(--black);
 }
 
+@media (max-width: 450px) {
+    section {
+        padding: 3rem;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    
+
+}
+
 .whatsapp {
     position: fixed;
     bottom: 30px;
     right: 30px;
     z-index: 9999;
-
 }
