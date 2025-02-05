@@ -154,21 +154,18 @@ p {
     color: var(--black);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     section {
         padding: 3rem;
         margin: 0 auto;
         max-width: 450px;
     }
-
-    .about {
-        display: flex;
+    .about .row {
         flex-direction: column;
     }
-
-    
-
-    
+    .header .section {
+        flex-direction: column;
+    }
 
 }
 
