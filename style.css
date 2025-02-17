@@ -71,7 +71,7 @@ section {
 }
 
 .home-container {
-    background: url(capa.jpg);
+    background-color: var(--black) ;
     background-position: center;
     background-size: cover;
 }
