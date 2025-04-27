@@ -65,26 +65,30 @@ section {
     cursor: pointer;
     margin-top: 1rem;
     display: inline-block;
+    border-radius: 10px;
 }
 .btn:hover {
     letter-spacing: 0.1rem;
 }
 
 .home-container {
+    background-image:url("BG.png");
     background-color: var(--black) ;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .home-container section {
     display: flex;
-    align-items: center;
-    height: 100vh;
-    min-height: 100vh;
+    align-items: end;
+    height: 90vh;
+    min-height: 90vh;
+    width: 80%;
 }
 
 .content {
     max-width: 60rem;
+    align-content: center;
 }
 
 .content h3 {
