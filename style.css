@@ -166,6 +166,7 @@ p {
     }
     home-container {
         background-image:url("BG2.png");
+    }
 
     .home-container section {
         display: flex;
