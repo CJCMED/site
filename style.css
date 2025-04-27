@@ -72,7 +72,7 @@ section {
 }
 
 .home-container {
-    background-image:url("BG2.png");
+    background-image:url("bg3.png");
     background-color: var(--black) ;
     background-position: center;
     background-repeat: no-repeat;
