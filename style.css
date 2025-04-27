@@ -164,6 +164,16 @@ p {
         margin: 0 auto;
         max-width: 450px;
     }
+    home-container {
+        background-image:url("BG2.png");
+
+    .home-container section {
+        display: flex;
+        align-items: end;
+        height: 90vh;
+        min-height: 90vh;
+    }
+    
     .about .row {
         flex-direction: column;
     }
